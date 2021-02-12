@@ -1,0 +1,81 @@
+$main: #e0b6b6;
+$button: #5850ec;
+$background: #ffffff;
+$border: #ced4da;
+$textcolor: #000000;
+$head: #7749f8;
+.head {
+  position: relative;
+  left: -20px;
+  top: -40px;
+}
+.content {
+  position: absolute;
+  top: 100px;
+  left: 160px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: 21px;
+  text-align: center;
+}
+.img {
+  position: absolute;
+  top: 60px;
+}
+.para {
+  position: relative;
+  left: -80px;
+  font-weight: lighter;
+}
+.checkbox {
+  position: relative;
+  left: -170px;
+}
+.anchor {
+  position: relative;
+  text-decoration: none;
+  top: -38px;
+  left: 160px;
+  color: $head;
+}
+.btn {
+  position: relative;
+  width: 110px;
+  background-color: $button;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.bottompara {
+  position: relative;
+  top: 50px;
+  left: -20px;
+}
+.anchor2 {
+  position: relative;
+  top: 13px;
+  left: 60px;
+  text-decoration: none;
+  color: $head;
+}
+#btnlogin {
+  background-color: $button;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.font {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: Bold;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+}

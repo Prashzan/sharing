@@ -1,0 +1,63 @@
+$button: #5850ec;
+$font: #ffffff;
+$fontfamily: "Poppins", sans-serif;
+.navbar-brand {
+  font-family: $fontfamily;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 10px;
+  text-align: center;
+}
+#btnlogin {
+  background-color: $button;
+  border-radius: 4px;
+  font-size: 15px;
+  color: white;
+}
+.mainbody {
+  background-repeat: repeat;
+  background-size: 100%;
+  background-image: url(../images/background.jpg);
+}
+body {
+  overflow-x: hidden;
+}
+.org {
+  font-family: $fontfamily;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  line-height: 36px;
+  /* identical to box height */
+}
+.note {
+  font-family: $fontfamily;
+  // padding-left:15%;
+  font-style: normal;
+  font-weight: bold;
+}
+::placeholder {
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 21px;
+}
+.card {
+  // margin-bottom:5px;
+  margin-right: 5px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#registerbtn1 {
+  margin-left: 32%;
+  background-color: $font;
+  color: $button;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.link1 {
+  margin-left: 20%;
+}
+.link2 {
+  text-decoration: none;
+}
